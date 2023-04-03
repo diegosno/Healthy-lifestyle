@@ -36,3 +36,9 @@ footer {
   position: fixed;
   text-align: right;
 }
+
+/* FORM STYLES */
+label {
+  display: block;
+  padding: 10px;
+}
