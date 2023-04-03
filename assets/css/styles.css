@@ -1,9 +1,8 @@
-a {
+header a {
   color: #666666;
-}
-
-header {
-  background: linear-gradient(to bottom, #ffffff, #ccf0ff);
-  text-align: center;
-  padding: 20px;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  background-color: ;
+  margin-right: 20px; /* Adds spacing between links */
 }
