@@ -73,3 +73,9 @@ select {
   width: 100%;
   margin: 10px 0px 0px 0px;
 }
+
+#news-and-offers{
+  vertical-align: middle;
+  margin: 0 10px 0 0;
+  width: unset;
+}
