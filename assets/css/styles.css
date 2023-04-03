@@ -64,3 +64,12 @@ fieldset {
   padding: 2rem 0;
   border: none;
 }
+
+input,
+textarea,
+select {
+  min-height: 2em;
+  text-align: center;
+  width: 100%;
+  margin: 10px 0px 0px 0px;
+}
