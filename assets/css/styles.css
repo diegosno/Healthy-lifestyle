@@ -40,7 +40,7 @@ footer {
 /* FORM STYLES */
 label {
   display: block;
-  padding: 10px;
+  padding: 10px;px;
 }
 
 form {
@@ -49,6 +49,16 @@ form {
   min-width: 80%;
   padding-bottom: 20px;
 }
+
+input[type="submit"] {
+  display: block;
+  width: 20%;
+  margin: auto;
+  height: 2em;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+}
+
 
 fieldset {
   padding: 2rem 0;
