@@ -23,38 +23,46 @@
     <main>Join the club!</main>
     <form action="/submit-form.php" method="post">
       <fieldset>
-        <label name="fname">
-          <input name="fname" />
+        <legend>Personal Details</legend>
+        <label name="fname" for="fname">First Name:
+          <input name="fname" id="fname" type="text" placeholder="Enter your first name" required/>
         </label>
 
-        <label name="lname">
-          <input name="lname" />
+        <label name="lname for="lname">Last Name:
+          <input name="lname" id="lname"  type="text" placeholder="Enter your last name" required/>
         </label>
 
-        <label name="age">
-          <input name="age" />
+        <label name="age" for="age">Age:
+          <input name="age" id="age"  type="number" min="16" max="120" required/>
         </label>
 
-        <label name="email">
-          <input name="email" />
+        <label name="email" for="email">Email:
+          <input name="email" id="email"  type="email" placeholder="Enter your e-mail" required/>
         </label>
 
-        <label name="phone">
-          <input name="phone" />
+        <label name="phone" for="phone">Phone Nr.:
+          <input name="phone" id="phone"  type="tel" placeholder="Enter your phone nr." required/>
         </label>
 
-        <label name="about-yourself">
-          <input name="about-yourself" />
+        <label name="about-yourself" for="about-yourself">Tell us about yourself:
+          <textarea name="about-yourself" id="about-yourself" placeholder="Provide a small bio" ></textarea>
+        </label>
+      </fieldset> 
+      <fieldset>
+        <label name="contact-preference" for="contact-preference">
+          How can we contact you?
+        <select name="contact-preference" id="contact-preference">
+          <option value="">(choose)</option>
+          <option value="1">Phone</option>
+          <option value="2">E-mail</option>
+        </select>
         </label>
 
-        <label name="contact-preference">
-          <input name="contact-preference" />
-        </label>
-
-        <label name="news-and-offers">
-          <input name="news-and-offers" />
+        <label name="news-and-offers" for="news-and-offers">Receive news and offers via e-mail
+          <input name="news-and-offers" id="news-and-offers"  type="checkbox"/>
         </label>
       </fieldset>
+      <input type="submit" value="Submit" />
     </form>
     <footer>Copyright 2023</footer>
   </body>
