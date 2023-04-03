@@ -1,8 +1,9 @@
-
-a {#666666}
+a {
+  color: #666666;
+}
 
 header {
-    background: linear-gradient(to bottom, #ffffff, #ccf0ff);
-    text-align: center;
-    padding: 20px;
-  }
+  background: linear-gradient(to bottom, #ffffff, #ccf0ff);
+  text-align: center;
+  padding: 20px;
+}
