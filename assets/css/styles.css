@@ -7,16 +7,13 @@ p {
   text-align: center;
 }
 body {
-  background-color: #ccf0ff;
+  background-color: #ffffff;
   margin: 0;
   font-family: "Questrial", sans-serif;
 }
-hr {
-  border: 0px solid black;
-}
 
 a {
-  color: #666666;
+  color: #000000;
   text-decoration: none;
   border-radius: 0px;
 }
@@ -26,7 +23,7 @@ a:hover {
 
 /* HEADER STYLES */
 header {
-  background: linear-gradient(to bottom, #ffffff, #ccf0ff);
+  background: #ffffff;
   text-align: center;
   padding: 20px;
 }
@@ -45,9 +42,10 @@ main {
 /* FOOTER STYLES */
 footer {
   width: 80%;
-  bottom: 20px;
-  position: fixed;
+  padding: 20px;
+  position: relative;
   text-align: right;
+  background-color: #ffffff;
 }
 
 /* FORM STYLES */
@@ -90,4 +88,11 @@ select {
   vertical-align: middle;
   margin: 0 10px 0 0;
   width: unset;
+}
+
+#healthy-lifestyle {
+  height: 600px;
+  width: 100%;
+
+  background: url(../images/healthy-lifestyle.jpg) no-repeat no-repeat center;
 }
