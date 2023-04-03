@@ -109,5 +109,11 @@ section > div {
 }
 
 section > div > span {
-  margin: 0 80px;
+  margin: 0 60px;
+}
+
+.about {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
 }
