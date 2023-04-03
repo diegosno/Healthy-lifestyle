@@ -23,6 +23,7 @@ a:hover {
 
 h2 {
   font-size: 16px;
+  padding: auto;
 }
 
 /* HEADER STYLES */
@@ -101,6 +102,11 @@ select {
   background: url(../images/healthy-lifestyle.jpg) no-repeat no-repeat center;
   overflow: hidden;
   position: relative;
+
+  animation-name: rotate-back-and-forth;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
 }
 
 section {
@@ -120,4 +126,16 @@ section > div > span {
   width: 50%;
   margin: 0 auto;
   text-align: center;
+}
+
+@keyframes rotate-back-and-forth {
+  0% {
+    transform: rotate(-10deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  100% {
+    transform: rotate(-10deg);
+  }
 }
