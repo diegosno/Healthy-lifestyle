@@ -98,3 +98,8 @@ select {
   overflow: hidden;
   position: relative;
 }
+
+span {
+  display: inline-block;
+  margin-right: 20px; /* Optional: add some space between the spans */
+}
