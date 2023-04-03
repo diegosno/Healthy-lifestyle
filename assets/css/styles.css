@@ -131,11 +131,6 @@ section > div > span {
   text-align: center;
 }
 
-#video {
-  display: flex;
-  justify-content: center;
-}
-
 @keyframes rotate-back-and-forth {
   0% {
     transform: rotate(-10deg);
