@@ -1,3 +1,14 @@
+/* FONT */
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+
+/* GENERAL STYLES */
+
+body {
+  background-color: #ccf0ff;
+  margin: 0;
+  font-family: "Questrial", sans-serif;
+}
+
 header a {
   color: #666666;
   margin: 0;
