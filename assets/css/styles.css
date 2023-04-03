@@ -95,4 +95,6 @@ select {
   width: 100%;
 
   background: url(../images/healthy-lifestyle.jpg) no-repeat no-repeat center;
+  overflow: hidden;
+  position: relative;
 }
