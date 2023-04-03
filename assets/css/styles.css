@@ -42,3 +42,15 @@ label {
   display: block;
   padding: 10px;
 }
+
+form {
+  margin: 0 auto;
+  max-width: 80%;
+  min-width: 80%;
+  padding-bottom: 20px;
+}
+
+fieldset {
+  padding: 2rem 0;
+  border: none;
+}
