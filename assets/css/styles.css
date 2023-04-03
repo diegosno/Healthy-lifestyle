@@ -14,6 +14,16 @@ body {
 hr {
   border: 0px solid black;
 }
+
+a {
+  color: #666666;
+  text-decoration: none;
+  border-radius: 0px;
+}
+a:hover {
+  text-decoration: underline;
+}
+
 /* HEADER STYLES */
 header {
   background: linear-gradient(to bottom, #ffffff, #ccf0ff);
