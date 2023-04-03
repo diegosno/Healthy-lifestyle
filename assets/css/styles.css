@@ -4,7 +4,8 @@
 /* GENERAL STYLES */
 p {
   margin: 1em auto;
-  text-align: center;
+  text-align: justify;
+  text-indent: 20px;
 }
 body {
   background-color: #ffffff;
@@ -15,10 +16,12 @@ body {
 a {
   color: #000000;
   text-decoration: none;
-  border-radius: 0px;
+  border-radius: 15px;
+  background-color: #95bc2b;
+  text-decoration: none;
 }
 a:hover {
-  text-decoration: underline;
+  background-color: hsl(76, 63%, 55%);
 }
 
 h2 {
