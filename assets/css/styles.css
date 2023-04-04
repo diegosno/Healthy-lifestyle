@@ -56,12 +56,11 @@ main {
 
 /* FOOTER STYLES */
 footer {
-padding: 20px;
-text-align:right;
-
+  padding: 20px;
+  text-align: right;
 }
-footer a{
-  padding:10px;
+footer a {
+  padding: 10px;
 }
 
 /* FORM STYLES */
@@ -168,11 +167,4 @@ section > div > span {
   100% {
     transform: rotate(-10deg);
   }
-}
-
-#my-video {
-  display: block;
-  padding:20px
-  height: 500px;
-  border: none;
 }
