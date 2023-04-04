@@ -42,19 +42,26 @@ nav {
 }
 nav a {
   color: #666666;
-  padding: 20px;<
+  padding: 20px;
 }
 
 /* MAIN CONTENT STYLES */
 main {
-  text-align: center;
+  text-align: left;
   padding: 20px;
+  font-size: 20px;
+  clear: left;
+  margin: 20px 0 0 20px;
 }
 
 /* FOOTER STYLES */
 footer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
   padding: 20px;
   text-align: right;
+  background: white;
 }
 footer a {
   padding: 10px;
@@ -118,9 +125,7 @@ select {
 #photos img {
   max-width: 100%;
   height: auto;
-
 }
-
 
 section {
   text-align: center;
@@ -161,9 +166,10 @@ section > div > span {
   float: center;
 }
 
-.yvideo {
+#yvideo {
   width: 560px;
   height: 315px;
+  padding: 20px;
 }
 
 .icons {
@@ -172,8 +178,6 @@ section > div > span {
   background: url(../images/icons.jpg) no-repeat no-repeat center;
   background-size: contain;
 }
-
-
 
 @keyframes rotate-back-and-forth {
   0% {
