@@ -4,6 +4,7 @@
 
 :root {
   --header-height: 100px;
+  --header-height-shadow: 150px;
   --nav-width: 300px;
   --font-size: 20px;
 }
@@ -19,21 +20,25 @@ body {
   padding: 20px;
   margin: 0 auto;
   font-family: "Oswald", sans-serif;
+  background-image: linear-gradient(to left, #aed544, black);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 
 header {
   position: fixed;
+  top: 0;
   z-index: 2;
   background-color: white;
   width: 100%;
   height: var(--header-height);
-  top: 0;
-  box-shadow: 0 30px 30px white;
   font-size: var(--font-size);
 }
 
 a {
-  color: #666666;
+  color: #505050;
   text-decoration: none;
 }
 
@@ -66,6 +71,7 @@ main {
   text-align: center;
   font-size: 20px;
   margin-top: 150px;
+  margin-bottom: 20px;
 }
 
 h2 {
