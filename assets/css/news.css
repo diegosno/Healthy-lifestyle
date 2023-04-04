@@ -1,35 +1,42 @@
-#photos img {
-  max-width: 100%;
-  height: auto;
-}
-
-.article-container,
-.article-container2,
-.article-container3 {
-  position: absolute;
-  padding: 40px;
-  width: 600px;
-  text-align: center;
-  box-sizing: border-box;
-  background-color: #ffffff;
-  color: #000000;
-  top: 0;
-  right: 100px;
-}
-
-.image-container img,
-.image-container2 img,
-.image-container3 img {
-  max-width: 100%;
-  height: auto;
-}
-
-.image-container,
-.image-container2,
-.image-container3 {
-  position: relative;
-  color: #ffffff;
-  background-color: #ffffff;
-  height: 100%;
+.image-container {
   width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.image1 {
+  background-image: url(../images/eat-healthy.jpg);
+}
+.image2 {
+  background-image: url(../images/exercise.jpg);
+}
+.image3 {
+  background-image: url(../images/icons.jpg);
+}
+
+article {
+  position: relative;
+  padding: 40px;
+  width: 500px;
+  text-align: justify;
+  background-color: rgba(255, 255, 255, 0.7);
+  margin-top: 50px;
+  border-radius: 80px;
+}
+
+.article1 {
+  position: absolute;
+  right: 50px;
+}
+
+.article2 {
+  position: absolute;
+  left: 50px;
+}
+.article3 {
+  position: initial;
+  margin-top: initial;
+  width: 90%;
 }
