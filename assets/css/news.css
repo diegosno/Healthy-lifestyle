@@ -1,0 +1,35 @@
+#photos img {
+  max-width: 100%;
+  height: auto;
+}
+
+.article-container,
+.article-container2,
+.article-container3 {
+  position: absolute;
+  padding: 40px;
+  width: 600px;
+  text-align: center;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  color: #000000;
+  top: 0;
+  right: 100px;
+}
+
+.image-container img,
+.image-container2 img,
+.image-container3 img {
+  max-width: 100%;
+  height: auto;
+}
+
+.image-container,
+.image-container2,
+.image-container3 {
+  position: relative;
+  color: #ffffff;
+  background-color: #ffffff;
+  height: 100%;
+  width: 100%;
+}
