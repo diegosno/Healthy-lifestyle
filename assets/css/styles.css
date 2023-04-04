@@ -32,18 +32,17 @@ h2 {
 /* HEADER STYLES */
 #logo {
   float: left;
-  padding: 10px;
+  padding: 20px;
   margin: 0 auto;
 }
 
 header {
   background: #ffffff;
-  text-align: center;
   padding: 20px;
 }
 nav {
   float: right;
-  padding: 10px;
+  padding: 20px;
 }
 nav a {
   color: #000000;
@@ -52,9 +51,8 @@ nav a {
 
 /* MAIN CONTENT STYLES */
 main {
-  padding: 20px;
-  margin-top: 20px;
   text-align: center;
+  padding: 20px;
 }
 
 /* FOOTER STYLES */
