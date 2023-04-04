@@ -168,3 +168,10 @@ section > div > span {
     transform: rotate(-10deg);
   }
 }
+
+#my-video {
+  display: block;
+  padding:20px
+  height: 500px;
+  border: none;
+}
