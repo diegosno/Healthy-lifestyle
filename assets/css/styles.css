@@ -196,7 +196,8 @@ section > div > span {
   position: absolute;
   padding: 40px;
   width: 400px;
-  float: right;
+  top: 0;
+  right: 100px;
   text-align: right;
   box-sizing: border-box;
   background-color: #ffffff;
@@ -220,12 +221,12 @@ section > div > span {
   position: absolute;
   padding: 40px;
   width: 600px;
-  float: left;
   text-align: center;
   box-sizing: border-box;
   background-color: #ffffff;
   color: #000000;
-  margin-bottom: 0px;
+  bottom: 0;
+  left: 100px;
 }
 
 @keyframes rotate-back-and-forth {
