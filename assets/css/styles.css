@@ -6,6 +6,7 @@ p {
   text-align: justify;
   text-indent: 20px;
 }
+
 body {
   background-color: #ffffff;
   margin: 0;
@@ -16,6 +17,7 @@ a {
   color: #666666;
   text-decoration: none;
 }
+
 a:hover {
   color: hsl(76, 63%, 55%);
 }
@@ -33,13 +35,19 @@ h2 {
 }
 
 header {
-  background: #ffffff;
-  padding: 20px;
+  position: fixed;
+  z-index: 2;
+  background-color: white;
+  width: 100%;
+  top: 0;
+  box-shadow: 0 30px 30px white;
 }
+
 nav {
   float: right;
   padding: 20px;
 }
+
 nav a {
   color: #666666;
   padding: 20px;
@@ -56,19 +64,21 @@ main {
 
 /* FOOTER STYLES */
 footer {
-  position: fixed;
   bottom: 0;
   right: 0;
   padding: 20px;
   text-align: right;
   background: white;
   width: 100%;
+  box-sizing: border-box;
 }
+
 footer a {
   padding: 10px;
 }
 
 /* FORM STYLES */
+
 label {
   display: block;
   padding: 10px;
@@ -147,6 +157,7 @@ section > div > span {
   text-align: justify;
   float: left;
 }
+
 .mission {
   width: 30%;
   padding: 20px;
@@ -160,6 +171,7 @@ section > div > span {
   text-align: justify;
   float: left;
 }
+
 .contact-us {
   width: 30%;
   padding: 20px;
@@ -212,6 +224,7 @@ section > div > span {
   height: 100%;
   width: 100%;
 }
+
 .image-container2 img {
   max-width: 100%;
   height: auto;
@@ -236,6 +249,7 @@ section > div > span {
   height: 100%;
   width: 100%;
 }
+
 .image-container3 img {
   max-width: 100%;
   height: auto;
@@ -257,9 +271,11 @@ section > div > span {
   0% {
     transform: rotate(-10deg);
   }
+
   50% {
     transform: rotate(10deg);
   }
+
   100% {
     transform: rotate(-10deg);
   }
