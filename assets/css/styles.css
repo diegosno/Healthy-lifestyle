@@ -178,11 +178,16 @@ section > div > span {
   background: url(../images/icons.jpg) no-repeat no-repeat center;
   background-size: contain;
 }
+#photos {
+  position: relative;
+  height: 100%;
+}
 
 .image-container {
   position: relative;
   color: #ffffff;
   background-color: #ffffff;
+  height: 100%;
 }
 
 .image-container img {
@@ -192,7 +197,7 @@ section > div > span {
 .article-container {
   position: absolute;
   padding: 40px;
-  width: 800px;
+  width: 500px;
   float: right;
   text-align: right;
   box-sizing: border-box;
