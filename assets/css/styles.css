@@ -56,11 +56,12 @@ main {
 
 /* FOOTER STYLES */
 footer {
-  width: 80%;
-  padding: 20px;
-  position: relative;
-  text-align: right;
-  background-color: #ffffff;
+padding: 20px;
+text-align:right;
+
+}
+footer a{
+  padding:10px;
 }
 
 /* FORM STYLES */
