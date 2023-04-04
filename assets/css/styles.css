@@ -179,6 +179,28 @@ section > div > span {
   background-size: contain;
 }
 
+.image-container {
+  position: relative;
+  color: #ffffff;
+  background-color: #ffffff;
+}
+
+.image-container img {
+  width: 100%;
+}
+
+.article-container {
+  position: absolute;
+  padding: 40px;
+  width: 800px;
+  float: right;
+  text-align: right;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  color: #000000;
+  margin-top: 50px;
+}
+
 @keyframes rotate-back-and-forth {
   0% {
     transform: rotate(-10deg);
