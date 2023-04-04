@@ -13,14 +13,11 @@ body {
 }
 
 a {
-  color: #000000;
-  text-decoration: none;
-  border-radius: 15px;
-  background-color: #95bc2b;
+  color: #666666;
   text-decoration: none;
 }
 a:hover {
-  background-color: hsl(76, 63%, 55%);
+  color: hsl(76, 63%, 55%);
 }
 
 h2 {
@@ -44,7 +41,7 @@ nav {
   padding: 20px;
 }
 nav a {
-  color: #000000;
+  color: #666666;
   padding: 20px;
 }
 
