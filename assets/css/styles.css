@@ -38,7 +38,7 @@ a {
 }
 
 a:hover {
-  color: hsl(76, 63%, 55%);
+  color: #aed544;
 }
 
 .disabled-a {
@@ -63,11 +63,9 @@ nav a {
 }
 
 main {
-  text-align: left;
-  padding: 20px;
+  text-align: center;
   font-size: 20px;
-  clear: left;
-  margin: 20px 0 0 20px;
+  margin-top: 150px;
 }
 
 h2 {

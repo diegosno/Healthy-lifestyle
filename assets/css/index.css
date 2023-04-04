@@ -1,14 +1,19 @@
 #hero-image {
-  height: 600px;
+  height: 550px;
   width: 100%;
-  background: url(../images/healthy-lifestyle.jpg) no-repeat no-repeat center;
-  overflow: hidden;
+  background: url(../images/healthy-lifestyle.jpg) no-repeat center center;
+  background-size: contain;
   position: relative;
+}
 
-  animation-name: rotate-back-and-forth;
-  animation-duration: 3s;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: infinite;
+.comment {
+  width: 80%;
+  text-align: justify;
+  margin: 0 auto;
+  font-size: 18px;
+  line-height: 30px;
+  text-indent: 20px;
+  padding-left: 10px;
 }
 
 #yvideo {
