@@ -3,7 +3,6 @@
 
 /* GENERAL STYLES */
 p {
-  margin: 1em auto;
   text-align: justify;
   text-indent: 20px;
 }
@@ -134,11 +133,30 @@ section > div > span {
 }
 
 .about {
-  width: 50%;
-  margin: 0 auto;
-  text-align: center;
+  width: 30%;
+  padding: 20px;
+  text-align: justify;
+  float: left;
+}
+.mission {
+  width: 30%;
+  padding: 20px;
+  text-align: justify;
+  float: left;
 }
 
+.content {
+  width: 30%;
+  padding: 20px;
+  text-align: justify;
+  float: left;
+}
+.contact-us {
+  width: 30%;
+  padding: 20px;
+  text-align: justify;
+  float: center;
+}
 @keyframes rotate-back-and-forth {
   0% {
     transform: rotate(-10deg);
