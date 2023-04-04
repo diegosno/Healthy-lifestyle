@@ -41,6 +41,10 @@ header {
   text-align: center;
   padding: 20px;
 }
+nav {
+  float: right;
+  padding: 10px;
+}
 nav a {
   color: #000000;
   padding: 20px;
