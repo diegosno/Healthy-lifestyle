@@ -229,6 +229,30 @@ section > div > span {
   left: 100px;
 }
 
+.image-container3 {
+  position: relative;
+  color: #ffffff;
+  background-color: #ffffff;
+  height: 100%;
+  width: 100%;
+}
+.image-container3 img {
+  max-width: 100%;
+  height: auto;
+}
+
+.article-container3 {
+  position: absolute;
+  padding: 40px;
+  width: 600px;
+  text-align: center;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  color: #000000;
+  top: 0;
+  right: 100px;
+}
+
 @keyframes rotate-back-and-forth {
   0% {
     transform: rotate(-10deg);
