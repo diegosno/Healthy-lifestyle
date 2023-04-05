@@ -36,13 +36,11 @@ The header includes a prominent logo, represented by an h1 element with the id "
 
 The header also includes a navigation menu, which allows users to quickly access different areas of the website. The menu includes links to the home page, news page, and a join page. These links are represented by a elements within a nav element.
 
-![](READMEimages/header.png)
-
-### Accessibility
-
-The header is designed with accessibility in mind. The logo and navigation links are enclosed within a elements, making them easily clickable for users who may be using assistive technologies. The "Join" link is also disabled, which may indicate that it is currently unavailable or restricted to certain users.
+The header is designed with accessibility in mind. The logo and navigation links are enclosed within a elements, making them easily clickable for users who may be using assistive technologies.
 
 The header provides a clear and concise way for users to navigate the website and reinforces the branding of the Healthy Lifestyle Club.
+
+![](READMEimages/header.png)
 
 ## Footer
 
@@ -55,6 +53,7 @@ Design: The footer is a simple design, with the social buttons contained within 
 Accessibility: The social buttons provide additional ways for users to connect with the Healthy Lifestyle Club on various social media platforms. This can be useful for users who prefer to receive updates through social media rather than email or other forms of communication.
 
 Overall, the footer provides a simple and useful way for users to connect with the Healthy Lifestyle Club on social media, and its design is consistent with the rest of the website.
+![](READMEimages/footer.png)
 
 ## Home Page
 
@@ -104,27 +103,36 @@ The above tests were conducted to ensure the website's overall functionality, us
 
 ## Validator Testing
 
+No errors were found using the 3WC Validator or Jigsaw Validator
+
 Accessibility Testing:
 
-We have conducted thorough accessibility testing on our application, and we are proud to report that our performance score for accessibility is 99. We have made every effort to ensure that our application is accessible to as many users as possible, including those with disabilities. Here are some of the specific tests that we have conducted:
+I have conducted thorough accessibility testing on our application, and I can report that the performance score for accessibility is 99. I have made every effort to ensure that the website is accessible to as many users as possible, including those with disabilities. Here are some of the specific tests that I have conducted:
 
-Keyboard Navigation: We have tested the application's keyboard navigation features to ensure that users can access all functionality without a mouse or other pointing device.
+Screen Reader Compatibility: I have tested the application's compatibility with various screen readers to ensure that users with visual impairments can navigate and use our application.
 
-Screen Reader Compatibility: We have tested the application's compatibility with various screen readers to ensure that users with visual impairments can navigate and use our application.
+Contrast Ratio: I have checked the contrast ratio of our application to ensure that it meets accessibility guidelines and is easily readable by users with visual impairments.
 
-Contrast Ratio: We have checked the contrast ratio of our application to ensure that it meets accessibility guidelines and is easily readable by users with visual impairments.
+Color Blindness: I have tested our application for color blindness compatibility to ensure that users with different types of color blindness can distinguish between different elements on the screen.
 
-Color Blindness: We have tested our application for color blindness compatibility to ensure that users with different types of color blindness can distinguish between different elements on the screen.
+HTML Markup: I have reviewed the HTML markup of the website to ensure that it is semantically correct and follows best practices for accessibility.
 
-Focus Management: We have tested the application's focus management features to ensure that users can easily see which element they are currently interacting with and can easily navigate between different elements.
-
-ARIA Compliance: We have tested our application's compliance with ARIA (Accessible Rich Internet Applications) guidelines to ensure that users with disabilities can navigate and interact with our application.
-
-HTML Markup: We have reviewed the HTML markup of our application to ensure that it is semantically correct and follows best practices for accessibility.
-
-We are confident that our application is highly accessible and that all users, regardless of their abilities, will be able to use it with ease. If you encounter any issues or have any suggestions for improving accessibility, please do not hesitate to contact us.
+I am confident that the application is highly accessible and that all users, regardless of their abilities, will be able to use it with ease.
 ![](READMEimages/accesibility.png)
+
+## Unfixed Bugs
+
+The video on the homepage makes the browser load slowly. I really don't know what is causing this. I tried changing the elements such as video and iframe, as well as changing the attribute values and CSS styling, however it is still taking time to load.
+
+## Wireframe
+
+The following wireframe was created to use it as guide for the website layout.
+![](READMEimages/wireframe.png)
 
 ## User Story
 
-As a health-conscious individal, I want to read articles and tips on health, diet, and fitness so that I can stay informed and make healthier choices.
+As a health-conscious user, I want to visit a website that provides me with valuable information and resources on healthy lifestyle habits. I want to be able to easily navigate the website, find relevant articles and resources, and connect with a community of like-minded individuals who share my interest in health and wellness. The website should provide me with tips and tools to help me make healthy choices in my daily life, such as healthy meal plans, exercise routines, and stress reduction techniques. Overall, I want the website to be a trusted source of information and inspiration as I work towards improving my health and well-being.
+
+## Content
+
+For this project, for the index.html file, I used a video from [Youtube](http://www.youTube.com) and the image from [Google](http://www.google.com). I also used code from [Developer Mozilla](https://developer.mozilla.org/en-US/), which can be found throughout the CSS files. The images from the news.html file were designed by me. For the join.html file I used a code from [Free Code Camp](https://www.freecodecamp.org/) as a base.
