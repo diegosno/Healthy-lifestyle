@@ -133,6 +133,13 @@ The following wireframe was created to use it as guide for the website layout.
 
 As a health-conscious user, I want to visit a website that provides me with valuable information and resources on healthy lifestyle habits. I want to be able to easily navigate the website, find relevant articles and resources, and connect with a community of like-minded individuals who share my interest in health and wellness. The website should provide me with tips and tools to help me make healthy choices in my daily life, such as healthy meal plans, exercise routines, and stress reduction techniques. Overall, I want the website to be a trusted source of information and inspiration as I work towards improving my health and well-being.
 
-## Content
+## Deployment
+
+The website was published to GitHub Pages. The instructions to publish the website are as follows:
+Go to the Settings tab in the GitHub repository
+Select the Master Branch from the source section drop-down menu
+After choosing the Master Branch, the page will refresh automatically and display a ribbon with detailed information indicating a successful deployment.
+
+## Content Credits
 
 For this project, for the index.html file, I used a video from [Youtube](http://www.youTube.com) and the image from [Google](http://www.google.com). I also used code from [Developer Mozilla](https://developer.mozilla.org/en-US/), which can be found throughout the CSS files. The images from the news.html file were designed by me. For the join.html file I used a code from [Free Code Camp](https://www.freecodecamp.org/) as a base.
