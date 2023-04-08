@@ -2,7 +2,7 @@
 
 This repository contains the source code for a simple website about healthy lifestyle, covering topics such as health, diet, and fitness. The website is built using HTML and CSS. By joining the club, people will gain access to a wealth of information on healthy living, including nutrition, fitness, mental health, and more. The website offers a variety of resources such as articles, videos, and different information to help people reach their health and wellness goals. The club is open to anyone from ages 16 and above, regardless of their gender, or fitness level, whether just starting out on a wellness journey or are a experienced pro.
 ![](READMEimages/Screen-sizes.png)
-[View the live deployed project](http://127.0.0.1:3000/index.html)
+[View the live deployed project](https://raw.githack.com/diegosno/Healthy-lifestyle/main/index.html)
 
 ## Contents
 
